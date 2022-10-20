@@ -36,7 +36,7 @@ main {
 main.animated {
   opacity: 0;
   filter: blur(10px);
-  transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+  transition: opacity 5s ease-in-out, filter 5s ease-in-out;
 }
 
 header {
@@ -48,7 +48,7 @@ header {
 }
 
 header > img {
-  width: 6em;
+  width: 2em;
   height: 6em;
   border-radius: 100%;
   border: 1px solid #fff;
